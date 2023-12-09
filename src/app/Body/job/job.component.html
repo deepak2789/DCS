@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <form>
+            <div class="card" style="margin-top: 10px;">
+                <div class="card-body">
+                    <div *ngFor="let job of jobs" class="panel panel-default col-md-4">
+                        <div class="panel-heading">
+                          <h3 class="panel-title">{{ job.title }}</h3>
+                        </div>
+                        <div class="panel-body">
+                          <p>{{ job.location }}</p>
+                          <p>{{ job.type }}</p>
+                          <button class="btn btn-info" (click)="jobDeatils()">Apply Here</button>
+                        </div>
+                      </div>
+                </div>
+             </div>
+        </form>        
+    </div>
+
+</div>

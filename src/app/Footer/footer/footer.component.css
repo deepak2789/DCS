@@ -1,0 +1,45 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.elementor-kit-3887 {
+    --e-global-color-primary: #EA3D3D;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+}
+.jkit-color-scheme {
+    --jkit-bg-color: #ffffff;
+    --jkit-border-color: #eaeaeb;
+    --jkit-txt-color: #575A5F;
+    --jkit-txt-h-color: #181D23;
+    --jkit-txt-a-color: #0058E6;
+    --jkit-txt-m-color: #96989B;
+    --jkit-txt-alt-color: #ffffff;
+    --jkit-form-border-color: #D5D5D7;
+    --jkit-form-bg-color: transparent;
+    --jkit-form-txt-color: #181D23;
+    --jkit-btn-txt-color: #ffffff;
+    --jkit-btn-bg-color: #0058E6;
+    --jkit-btn-bg-hover-color: #0048bd;
+    --jkit-selection-bg-color: #d8a600;
+    --jkit-element-bg-color: #80b1ff;
+    --jkit-element-darken-bg-color: #0058E6;
+    --jkit-element-lighten-bg-color: #e6f0ff;
+    --jkit-success-bg-color: #75ffd8;
+    --jkit-success-border-color: #007f5b;
+    --jkit-error-bg-color: #ffcccc;
+    --jkit-error-border-color: #d60000;
+}
